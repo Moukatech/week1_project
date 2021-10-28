@@ -74,6 +74,11 @@ body{
 	background-color: #bb9e7d;
     border-color: #bb9e7d;}
 
+.custom_btn{
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+      }
 
 p{
     color: #585757;
@@ -92,4 +97,22 @@ p{
 
 #watermark{
 	position: relative;
+}
+
+.back{
+    width: 170px;    
+    font-family: "Crimson";
+    font-size: 17px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin-top: 70px;	 
+}
+
+.back i{
+	margin-left: -40px;
+    margin-right: 17px;
+    font-size: 20px;
 }
