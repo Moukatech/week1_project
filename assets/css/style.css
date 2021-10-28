@@ -58,7 +58,7 @@ body{
 }
 
 .btn-data{
-	background-color: rgb(35, 119, 168);
+	background-color: rgb(188, 217, 233);
 	color: #111;
 	font-style: italic;
 	border: 1px solid #111;
@@ -74,11 +74,6 @@ body{
 	background-color: #bb9e7d;
     border-color: #bb9e7d;}
 
-.custom_btn{
-    -vendor-animation-duration: 3s;
-    -vendor-animation-delay: 2s;
-    -vendor-animation-iteration-count: infinite;
-      }
 
 p{
     color: #585757;
