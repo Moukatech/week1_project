@@ -17,6 +17,35 @@ body{
     line-height: 29px;
 
 }
+@media (min-width: 778px)
+{
+		.main{
+			height: 100vh;
+			overflow: hidden;
+		}
+
+		.img-rabbit{
+			/*margin: 0 -15px;*/
+		}
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+		
+		.home-description{
+			padding-right: 90px;
+			padding-left: 90px;
+			
+		}
+}
 
 .btn{
 	padding: 10px 60px;
@@ -50,4 +79,17 @@ p{
     color: #585757;
     font-size: 16px;
         
+}
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+}
+
+#watermark{
+	position: relative;
 }
