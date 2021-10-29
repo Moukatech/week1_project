@@ -6,6 +6,8 @@ body{
 .main{
 	background: #fff;
 }
+ 
+/* style for home page body */
 
 .home-description{
 	font-style: italic;
@@ -24,9 +26,6 @@ body{
 			overflow: hidden;
 		}
 
-		.img-rabbit{
-			/*margin: 0 -15px;*/
-		}
 
 		.btn-group-vertical{
     		padding: 20px 87.5px;
